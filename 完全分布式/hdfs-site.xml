@@ -15,14 +15,14 @@
 -->
 
 <configuration>
-    <!-- 配置 NN Web 端地址 -->
-    <property>
-        <name>dfs.namenode.http-address</name>
-        <value>master:9870</value>
-    </property>
-    <!-- 2NN Web 端地址 -->
-    <property>
-        <name>dfs.secondarynamenode.http-address</name>
-        <value>slave2:9868</value>
-    </property>
+  <!-- 配置 NN Web 端地址 -->
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>master:9870</value>
+  </property>
+  <!-- 2NN Web 端地址 -->
+  <property>
+    <name>dfs.namenode.secondary.http-address</name>
+    <value>slave2:9868</value>
+  </property>
 </configuration>
